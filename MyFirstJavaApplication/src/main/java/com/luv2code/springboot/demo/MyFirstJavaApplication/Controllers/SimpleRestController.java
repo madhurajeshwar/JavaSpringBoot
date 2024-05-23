@@ -18,4 +18,9 @@ public class SimpleRestController {
         return "you need to exercise";
     }
 
+    @GetMapping("/fortune")
+    public String fortune(){
+        return "Your result is directly propotional to your effort";
+    }
+
 }
